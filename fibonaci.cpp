@@ -19,7 +19,7 @@ int main(){
 //   b=next;
 int n;cin>>n;int i=0;
 // int p=fib(n);
-// cout<<n<<"th term of fibonaci series is ; "<<p<<endl
+// cout<<n<<"th term  of fibonaci series is ; "<<p<<endl
 while(i<n){
     cout<<fib(i)<<" ";i++;
 }
