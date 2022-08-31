@@ -20,7 +20,9 @@ int gcd(int a,int b){
     // return g;
 // using recusrion
     if(b!=0){ return gcd(b,a%b);}
-    else {return a;}
+    else {
+        return a;
+    }
 
 }
 
